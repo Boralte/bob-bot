@@ -19,6 +19,10 @@ controller.spawn({
 controller.on('bot_channel_join', function (bot, message) {
     bot.reply(message, "I'm here!")
 })
+<<<<<<< HEAD
+=======
+
+>>>>>>> 088ce99cf0bdcb1a7ad03b4e565c9d60d4e43d32
 controller.hears(['hi'], ['ambient', 'direct_message','direct_mention', 'mention'], function (bot, message) {
     bot.reply(message, 'Hello.')
 })
